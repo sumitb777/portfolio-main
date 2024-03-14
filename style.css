@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Noto+Serif+Old+Uyghur&display=swap');
+
+body {
+    background-color: black;
+    /* #111014; */
+    /* 212650 */
+}
+
+
+.maincontainer {
+
+    background-color: #121527;
+    color: white;
+}
+
+.page-1 {
+    height: 100dvh;
+}
+
+.portfolia-header {}
+
+
+.sumit-logo,
+.port-h,
+.porject-h {
+
+    color: #3eb5de !important;
+}
+
+.sumit-logo {
+    font-family: 'Dancing Script', 'cursive';
+}
+
+.intro-hello {
+
+    margin-top: 10%;
+}
+
+.forhello,
+.for-full,
+.iam {
+    font-family: 'Agbalumo', 'Noto Serif Old Uyghur';
+
+
+}
+
+.for-full {
+    font-size: 90px;
+    line-height: 70px;
+}
+
+.iam {
+    color: #444d83;
+
+}
+
+.intro-btn {
+    height: 60px;
+    width: 18vw;
+    background-image: linear-gradient(to left, #7752FE, #3eb5de);
+}
+
+.visit-btn {
+    height: 60px;
+    width: 18vw;
+    background-image: linear-gradient(to right, #7752fec4, #3eb6ded2);
+}
+
+.pimg-div,
+.p-info {
+
+    height: 70vh !;
+}
+
+.project-main {
+    height: 100%;
+}
+
+.project-des {
+    color: #878a91;
+}
+
+.carousel-item {
+    height: 52vh;
+}
+
+.page-3 {
+    height: 100%;
+}
+
+
+.boxshadow {
+    height: 120px;
+    width: 370px;
+    position: relative;
+    background: linear-gradient(rgb(20, 20, 20), rgb(19, 18, 18)) padding-box,
+        linear-gradient(to right, #7752FE, #3eb5de) border-box;
+    border-radius: 6px;
+    border: 4px solid transparent;
+    transform: translate(0);
+    transform-style: preserve-3d;
+
+}
+
+.boxshadow::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    z-index: -1;
+    transform: translate3d(10px, 8px, -1px);
+    background: conic-gradient(from 360deg, #3eb5de, #7752FE);
+    filter: blur(20px);
+}
+
+.lang-img {
+    height: 95px;
+    width: 80px;
+    border-radius: 6px;
+}
+
+.contact-page {
+
+    height: 50vh;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-image: linear-gradient(to right, #7752fec4, #3eb6ded2);
+    /* background-image: radial-gradient(circle, #7752fec4, #3eb6ded2, #121527); */
+}
+
+.contact-main {}
+
+.contact-h {
+    margin-bottom: 5vh;
+}
+
+
+@media screen and (max-width: 700px) {
+    .for-full {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .intro-hello {
+
+        margin-top: 20%;
+    }
+
+    .intro-btn {
+        height: 60px;
+        width: 38vw;
+        background-image: linear-gradient(to left, #7752FE, #3eb5de);
+    }
+
+    .carousel-item {
+        height: 40vh;
+        width: 95%;
+    }
+
+    .contact-page {
+        border-radius: 90%;
+    }
+
+}
